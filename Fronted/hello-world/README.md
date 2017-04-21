@@ -17,8 +17,10 @@
 
 **7)** Luego de esto en estas lineas de código, cambiar **EditarEquipo** por la vista que se cambió anteriormente
 **
+
+`
 ReactDOM.render(
   <EditarEquipo/>,
   document.getElementById('root')
 );
-**
+`
