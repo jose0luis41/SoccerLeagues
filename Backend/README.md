@@ -3,6 +3,12 @@
 **Pasos para configurar el backend**
 
 
-**1)** Bajar el archivo modelo_liga_futbol.mwb ubicado en la carpeta Modelo
+**1)** Descargar la carpeta backend de este repositorio
 
-**2)** Crear la base de datos con el modelo descargado en MySQLWorbench
+**2)** Navegar hasta la ruta de la carpeta backend, **cd ~/User/Downloads/backend**, posiblemente la ruta puede cambiar dependiendo de donde se haya puesto la carpeta descargada.
+
+**3)** 
+
+**4)** 
+
+**5)** 
