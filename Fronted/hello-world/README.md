@@ -7,7 +7,7 @@
 
 **2)** Navegar hasta la ruta de la carpeta Fronted, **cd ~/User/Downloads/Fronted/hello-world**, posiblemente la ruta puede cambiar dependiendo de donde se haya puesto la carpeta descargada.
 
-**3)** Primero se debe correr el comando ** npm install**
+**3)** Primero se debe correr el comando **npm install**
 
 **3)** Cuando se esté dentro de esta carpeta se corre el comando **npm start**
 
