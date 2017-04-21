@@ -13,4 +13,12 @@
 
 **5)** Si no hay problema, el navegador se abrirá automáticamente con la vista de editar un equipo por defecto.
 
-**6)** Si se quiere cambiar de vista, se tiene abrir el archivo **hello-world** en un editor de texto y después de esto, hay que ir hasta el archivo **index.js** y comentar la linea **import EditarEquipo from './EditarEquipo';** y poner la vista que se quiere mostrar
+**6)** Si se quiere cambiar de vista, se tiene abrir el archivo **hello-world** en un editor de texto y después de esto, hay que ir hasta el archivo **index.js** y comentar la línea **import EditarEquipo from './EditarEquipo';** y poner la vista que se quiere mostrar.
+
+**7)** Luego de esto en estas lineas de código, cambiar **EditarEquipo** por la vista que se cambió anteriormente
+**
+ReactDOM.render(
+  <EditarEquipo/>,
+  document.getElementById('root')
+);
+**
