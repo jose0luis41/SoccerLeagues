@@ -2,12 +2,17 @@
 
 **Pasos para configurar el backend**
 
+**1)** Descargar el archivo modelo_liga_futbol.mwb que se encuentra dentro de la carpeta Modelo.
 
-**1)** Descargar la carpeta backend de este repositorio
+**2)** Abrir el modelo con MySQLWorkbench y generar la base de datos a partir del modelo.
+
+**3)** Cambiar el archivo presistence.xml que se encuetra en el directorio **SoccerLeagues/Backend/src/main/resources/META-INF/**
+
+**)** Descargar la carpeta backend de este repositorio
 
 **2)** Navegar hasta la ruta de la carpeta backend 
 ```
-**cd ~/User/Downloads/backend**, 
+cd ~/User/Downloads/SoccerLeagues/Backend 
 ```
 posiblemente la ruta puede cambiar dependiendo de donde se haya puesto la carpeta descargada.
 
