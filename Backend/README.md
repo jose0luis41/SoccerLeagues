@@ -7,8 +7,8 @@
 
 **2)** Navegar hasta la ruta de la carpeta backend, **cd ~/User/Downloads/backend**, posiblemente la ruta puede cambiar dependiendo de donde se haya puesto la carpeta descargada.
 
-**3)** 
+**3)** Cuando se esté dentro de esta carpeta se corre el comando **mvn appdengine:devserver**
 
-**4)** 
+**4)** Esperar a que suba el proyecto, para probar los endpoints.
 
 **5)** 
