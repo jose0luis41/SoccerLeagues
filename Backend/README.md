@@ -6,7 +6,7 @@
 
 **2)** Abrir el modelo con MySQLWorkbench y generar la base de datos a partir del modelo.
 
-**3)** Cambiar el archivo presistence.xml que se encuetra en el directorio **SoccerLeagues/Backend/src/main/resources/META-INF/** por las configuraciones de tu user y password creado.
+**3)** Cambiar el archivo presistence.xml que se encuetra en el directorio **SoccerLeagues/Backend/src/main/resources/META-INF/** por las configuraciones de tu user, password y nombre de la base de datos creada.
 ```
 <?xml version="1.0" encoding="UTF-8"?>
 <persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
