@@ -11,4 +11,6 @@
 
 **4)** Esperar a que suba el proyecto, para probar los endpoints.
 
-**5)** 
+**5)** Poner en el navegador la ruta **localhost:8080/_ah/api/explorer** para probar los endpoints con el API de google.
+
+**6)**O también puedes probar los endpoints en Postman.
