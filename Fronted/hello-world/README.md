@@ -11,6 +11,6 @@
 
 **4)** Esperar a que suba el proyecto, para probar los endpoints con el fronted.
 
-**5)** Si no hay problema, el navegador se abrirá automáticamente con la vista
+**5)** Si no hay problema, el navegador se abrirá automáticamente con la vista de editar un equipo por defecto.
 
-**6)** O, también se puede probar los endpoints con Postman.
+**6)** Si se quiere cambiar de vista, se tiene abrir el archivo **hello-world** en un editor de texto y después de esto, hay que ir hasta el archivo **index.js** y comentar la linea **import EditarEquipo from './EditarEquipo';** y poner la vista que se quiere mostrar
