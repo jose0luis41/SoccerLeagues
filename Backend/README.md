@@ -6,7 +6,23 @@
 
 **2)** Abrir el modelo con MySQLWorkbench y generar la base de datos a partir del modelo.
 
-**3)** Cambiar el archivo presistence.xml que se encuetra en el directorio **SoccerLeagues/Backend/src/main/resources/META-INF/**
+**3)** Cambiar el archivo presistence.xml que se encuetra en el directorio **SoccerLeagues/Backend/src/main/resources/META-INF/** por las configuraciones de tu user y password creado.
+```
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="unitEcho">
+    <class>com.example.echo.Team</class>
+    <class>com.example.echo.League</class>
+    <exclude-unlisted-classes>true</exclude-unlisted-classes>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/teams"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.password" value="password"/>
+    </properties>
+  </persistence-unit>
+</persistence>
+```
 
 **)** Descargar la carpeta backend de este repositorio
 
