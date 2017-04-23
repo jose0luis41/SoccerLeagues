@@ -3,7 +3,7 @@ import axios from 'axios';
 import logo from './logo.svg';
 import './App.css';
 
-class App extends Component {
+class MostrarEquipo extends Component {
 
   constructor(props){
     super(props);
@@ -51,4 +51,4 @@ class App extends Component {
 
 
 
-export default App;
+export default MostrarEquipo;
